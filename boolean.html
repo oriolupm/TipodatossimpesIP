@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Activo - Boolean</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script_boolean.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="top">
+        <div class="left">
+            <pre>
+PROGRAM ejemploBoolean;
+VAR
+  activo: boolean;
+            </pre>
+        </div>
+        <div class="right">
+            <p><strong>Tipo: BOOLEAN</strong></p>
+            <p>Bytes: 1 (8 bits)</p>
+            <p>Valores: TRUE o FALSE</p>
+            <p class="label">Valor guardado en la variable <b>activo</b>:</p>
+            <div class="box" id="valorBox">--</div>
+            <p class="binary-label">Código binario:</p>
+            <div class="binary" id="binario">00000000</div>
+        </div>
+    </div>
+    <div class="bottom">
+        <p>Introduce "true" o "false" (no distingue mayúsculas) y pulsa INTRO.</p>
+        <input type="text" id="entradaValor" />
+        <button onclick="location.href='index.html'">🏠 Inicio</button>
+    </div>
+</div>
+<footer>
+    <img src="logo_orioltic.jpg" alt="Logo OriolTIC">
+    <p>Obra de Oriol Borrás-Gené (URJC) – Licencia CC BY 4.0</p>
+</footer>
+</body>
+</html>

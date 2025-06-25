@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Altura - Real</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script_real.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="top">
+        <div class="left">
+            <pre>
+PROGRAM ejemploReal;
+VAR
+  altura: real;
+            </pre>
+        </div>
+        <div class="right">
+            <p><strong>Tipo: REAL</strong></p>
+            <p>Bytes: 6 (48 bits en Turbo Pascal)</p>
+            <p>Rango aproximado: ±1.5×10⁻⁴⁵ a ±3.4×10³⁸</p>
+            <p class="label">Valor guardado en la variable <b>altura</b>:</p>
+            <div class="real-extra">
+                <div class="box" id="valorBox">--</div>
+                <div class="real-decimal" id="decimalBox">--</div>
+            </div>
+            <p class="binary-label">Código binario:</p>
+            <div class="binary" id="binario">00000000000000000000000000000000</div>
+        </div>
+    </div>
+    <div class="bottom">
+        <p>Introduce un número real (puede ser entero o decimal) y pulsa INTRO.</p>
+        <input type="number" step="any" id="entradaValor" />
+        <button onclick="location.href='index.html'">🏠 Inicio</button>
+    </div>
+</div>
+<footer>
+    <img src="logo_orioltic.jpg" alt="Logo OriolTIC">
+    <p>Obra de Oriol Borrás-Gené (URJC) – Licencia CC BY 4.0</p>
+</footer>
+</body>
+</html>
